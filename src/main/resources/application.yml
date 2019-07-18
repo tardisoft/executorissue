@@ -1,0 +1,13 @@
+---
+micronaut:
+  application:
+    name: executorissue
+
+---
+#rabbitmq:
+#  uri: amqp://localhost:5672
+
+---
+kafka:
+  bootstrap:
+    servers: localhost:9092
